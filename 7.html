@@ -7,11 +7,11 @@
 </head>
 <body>
     <script>
-        const showMessage = () => {
+        const showMessage = (message) => {
             alert("HELLO!");
         }
-
-        showMessage();
+        message = prompt("Enter the message", ["message"]);
+        showMessage(message);
     </script>
 </body>
 </html>
